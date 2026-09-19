@@ -1,0 +1,12 @@
+# Robots.txt for Top One Pest Control Services
+# Official Domain: https://toponeservices.in/
+
+User-agent: *
+Allow: /
+
+# Disallow private or API paths if any
+Disallow: /api/
+Disallow: /admin/
+
+# Sitemaps
+Sitemap: https://toponeservices.in/sitemap.xml

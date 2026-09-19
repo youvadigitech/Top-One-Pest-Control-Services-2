@@ -1,0 +1,22 @@
+{
+  "name": "Top One Pest Control Services",
+  "short_name": "Top One Pest",
+  "description": "Best pest control services in Mumbai, Thane & Badlapur. 100% odorless herbal treatments with certified long-term protection plans.",
+  "start_url": "https://toponeservices.in/",
+  "scope": "https://toponeservices.in/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#15803d",
+  "icons": [
+    {
+      "src": "https://horizons-cdn.hostinger.com/fa5bde4f-2cf4-43a0-b1ca-9f112949769a/11a91d2c5ed0e405ec9421df15303554.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://horizons-cdn.hostinger.com/fa5bde4f-2cf4-43a0-b1ca-9f112949769a/11a91d2c5ed0e405ec9421df15303554.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

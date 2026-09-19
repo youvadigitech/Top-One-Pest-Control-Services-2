@@ -1,0 +1,106 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand: #16a34a;
+    --brand-light: #4ade80;
+    --brand-dark: #15803d;
+    --brand-darker: #14532d;
+    --brand-mint: #f0fdf4;
+    --foreground: #18181b;
+    --background: #ffffff;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--foreground);
+    background-color: var(--background);
+    overflow-x: clip;
+  }
+}
+
+/* Custom Theme colors for Tailwind */
+@theme {
+  --color-brand: #16a34a;
+  --color-brand-light: #4ade80;
+  --color-brand-dark: #15803d;
+  --color-brand-darker: #14532d;
+  --color-brand-mint: #f0fdf4;
+  --color-brand-hover: #15803d;
+  --font-sans: 'Poppins', sans-serif;
+}
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.7s ease-out both;
+}
+
+@keyframes float-y {
+  0%, to {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float-y 4s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+.section-fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.section-fade.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-fade {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .animate-marquee {
+    animation: none !important;
+  }
+  .animate-float {
+    animation: none !important;
+  }
+  .animate-fade-up {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}

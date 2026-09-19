@@ -1,0 +1,8 @@
+{
+  "name": "Top One Pest Control Services 2",
+  "description": "Best pest control services in Mumbai, Thane, and Badlapur. 100% odorless herbal treatments for Cockroach, Bird Control, Bed Bug, Mosquito, Rodents, Termites & Wood Borer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
