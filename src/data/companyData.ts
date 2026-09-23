@@ -24,7 +24,7 @@ export const COMPANY_INFO = {
   logoUrl: "https://horizons-cdn.hostinger.com/fa5bde4f-2cf4-43a0-b1ca-9f112949769a/11a91d2c5ed0e405ec9421df15303554.png",
   images: {
     hero: "https://images.hostinger.com/67b1638d-ed07-4970-8db6-844f9103f5b7.png",
-    residential: "https://images.hostinger.com/054bd9f2-6235-43bf-806a-fcee7064393a.png",
+    residential: "/images/services/rodents-control.jpg",
     eco: "https://images.hostinger.com/c75c25e0-6047-4567-92aa-4bb75117d87a.png",
     commercial: "https://images.hostinger.com/261832ed-c3d8-4125-a444-c856f5836e32.png"
   },

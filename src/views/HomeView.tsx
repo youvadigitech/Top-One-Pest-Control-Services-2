@@ -108,9 +108,9 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onOpenEnquiryMod
     },
     {
       id: 8,
-      image: COMPANY_INFO.images.residential,
-      label: 'Residential Flat Care',
-      title: 'Residential Flat & Society Pest Protection'
+      image: '/images/services/rodents-control.jpg',
+      label: 'Rodent & Rat Control',
+      title: 'Tamper-Proof Rodent Baiting & Society Protection'
     }
   ];
 
